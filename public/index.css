@@ -1,0 +1,50 @@
+body {
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 500px auto;
+}
+
+.game {
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+.sidebar {
+    background: #fff;
+    padding: 1rem;
+    width: 150px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.controls .restart {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    transition: 150ms;
+}
+
+.controls .restart:hover {
+    background: #ccc;
+    cursor: pointer;
+}
